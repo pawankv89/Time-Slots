@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimeCollectionCell" customModule="Time_Slots" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TimeCollectionCell" id="12h-8F-563" customClass="TimeCollectionCell" customModule="Time_Slots" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TLj-40-pGf">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12k-Bk-mCf">
+                                <rect key="frame" x="1" y="1" width="78" height="78"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                <color key="textColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="NzZ-lv-wud">
+                                <rect key="frame" x="10" y="12.5" width="60" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TD6-Vd-43x">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="17"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                        <color key="textColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpQ-x2-r16">
+                                        <rect key="frame" x="0.0" y="19" width="60" height="17"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                        <color key="textColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PJ-NK-HH6">
+                                        <rect key="frame" x="0.0" y="38" width="60" height="17"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
+                                        <color key="textColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="NzZ-lv-wud" secondAttribute="trailing" constant="10" id="7dV-bL-7rp"/>
+                            <constraint firstAttribute="bottom" secondItem="12k-Bk-mCf" secondAttribute="bottom" constant="1" id="HbU-ZK-ly4"/>
+                            <constraint firstItem="NzZ-lv-wud" firstAttribute="centerX" secondItem="TLj-40-pGf" secondAttribute="centerX" id="Mpb-c4-aPa"/>
+                            <constraint firstItem="NzZ-lv-wud" firstAttribute="centerY" secondItem="TLj-40-pGf" secondAttribute="centerY" id="NWz-Rb-mEG"/>
+                            <constraint firstAttribute="trailing" secondItem="12k-Bk-mCf" secondAttribute="trailing" constant="1" id="buU-tU-q4a"/>
+                            <constraint firstItem="NzZ-lv-wud" firstAttribute="leading" secondItem="TLj-40-pGf" secondAttribute="leading" constant="10" id="lxw-Tf-Vcp"/>
+                            <constraint firstItem="12k-Bk-mCf" firstAttribute="top" secondItem="TLj-40-pGf" secondAttribute="top" constant="1" id="mRc-hT-aPC"/>
+                            <constraint firstItem="12k-Bk-mCf" firstAttribute="leading" secondItem="TLj-40-pGf" secondAttribute="leading" constant="1" id="zuw-Sk-JGA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="TLj-40-pGf" firstAttribute="leading" secondItem="12h-8F-563" secondAttribute="leading" id="B7A-fv-esT"/>
+                <constraint firstAttribute="trailing" secondItem="TLj-40-pGf" secondAttribute="trailing" id="S4g-z6-ThV"/>
+                <constraint firstAttribute="bottom" secondItem="TLj-40-pGf" secondAttribute="bottom" id="n8z-ME-yzh"/>
+                <constraint firstItem="TLj-40-pGf" firstAttribute="top" secondItem="12h-8F-563" secondAttribute="top" id="oZv-rr-Por"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="26N-7b-LcL"/>
+            <connections>
+                <outlet property="bgView" destination="TLj-40-pGf" id="vQv-46-mMY"/>
+                <outlet property="time1Label" destination="TD6-Vd-43x" id="Afq-Vz-pVi"/>
+                <outlet property="time2Label" destination="4PJ-NK-HH6" id="m9a-Nx-TQU"/>
+                <outlet property="timeNowLabel" destination="12k-Bk-mCf" id="BfJ-8v-wJD"/>
+                <outlet property="timeToLabel" destination="hpQ-x2-r16" id="Gbh-Dw-j7K"/>
+            </connections>
+            <point key="canvasLocation" x="119" y="163"/>
+        </collectionViewCell>
+    </objects>
+</document>

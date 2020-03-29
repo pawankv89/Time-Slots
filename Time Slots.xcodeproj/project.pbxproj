@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4062297243052CC00503E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4062296243052CC00503E39 /* AppDelegate.swift */; };
+		D4062299243052CC00503E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4062298243052CC00503E39 /* SceneDelegate.swift */; };
+		D406229B243052CC00503E39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406229A243052CC00503E39 /* ViewController.swift */; };
+		D406229E243052CC00503E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D406229C243052CC00503E39 /* Main.storyboard */; };
+		D40622A0243052D200503E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D406229F243052D200503E39 /* Assets.xcassets */; };
+		D40622A3243052D200503E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40622A1243052D200503E39 /* LaunchScreen.storyboard */; };
+		D40622AD2430537500503E39 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40622AC2430537500503E39 /* DBManager.swift */; };
+		D40622B22430548D00503E39 /* BookingTimeSlots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40622B02430548D00503E39 /* BookingTimeSlots.swift */; };
+		D40622B32430548D00503E39 /* BookingTimeSlots.xib in Resources */ = {isa = PBXBuildFile; fileRef = D40622B12430548D00503E39 /* BookingTimeSlots.xib */; };
+		D40622B72430589000503E39 /* TimeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40622B52430588F00503E39 /* TimeCollectionCell.swift */; };
+		D40622B82430589000503E39 /* TimeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D40622B62430589000503E39 /* TimeCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4062293243052CC00503E39 /* Time Slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4062296243052CC00503E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4062298243052CC00503E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D406229A243052CC00503E39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D406229D243052CC00503E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D406229F243052D200503E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40622A2243052D200503E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40622A4243052D200503E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40622AC2430537500503E39 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		D40622B02430548D00503E39 /* BookingTimeSlots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingTimeSlots.swift; sourceTree = "<group>"; };
+		D40622B12430548D00503E39 /* BookingTimeSlots.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingTimeSlots.xib; sourceTree = "<group>"; };
+		D40622B52430588F00503E39 /* TimeCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCollectionCell.swift; sourceTree = "<group>"; };
+		D40622B62430589000503E39 /* TimeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCollectionCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4062290243052CC00503E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D406228A243052CC00503E39 = {
+			isa = PBXGroup;
+			children = (
+				D4062295243052CC00503E39 /* Time Slots */,
+				D4062294243052CC00503E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4062294243052CC00503E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4062293243052CC00503E39 /* Time Slots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4062295243052CC00503E39 /* Time Slots */ = {
+			isa = PBXGroup;
+			children = (
+				D40622B42430588300503E39 /* Cell */,
+				D4062296243052CC00503E39 /* AppDelegate.swift */,
+				D4062298243052CC00503E39 /* SceneDelegate.swift */,
+				D406229A243052CC00503E39 /* ViewController.swift */,
+				D40622AC2430537500503E39 /* DBManager.swift */,
+				D40622B02430548D00503E39 /* BookingTimeSlots.swift */,
+				D40622B12430548D00503E39 /* BookingTimeSlots.xib */,
+				D406229C243052CC00503E39 /* Main.storyboard */,
+				D406229F243052D200503E39 /* Assets.xcassets */,
+				D40622A1243052D200503E39 /* LaunchScreen.storyboard */,
+				D40622A4243052D200503E39 /* Info.plist */,
+			);
+			path = "Time Slots";
+			sourceTree = "<group>";
+		};
+		D40622B42430588300503E39 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D40622B52430588F00503E39 /* TimeCollectionCell.swift */,
+				D40622B62430589000503E39 /* TimeCollectionCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4062292243052CC00503E39 /* Time Slots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40622A7243052D200503E39 /* Build configuration list for PBXNativeTarget "Time Slots" */;
+			buildPhases = (
+				D406228F243052CC00503E39 /* Sources */,
+				D4062290243052CC00503E39 /* Frameworks */,
+				D4062291243052CC00503E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Slots";
+			productName = "Time Slots";
+			productReference = D4062293243052CC00503E39 /* Time Slots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D406228B243052CC00503E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pawan Kumar";
+				TargetAttributes = {
+					D4062292243052CC00503E39 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = D406228E243052CC00503E39 /* Build configuration list for PBXProject "Time Slots" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D406228A243052CC00503E39;
+			productRefGroup = D4062294243052CC00503E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4062292243052CC00503E39 /* Time Slots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4062291243052CC00503E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40622A3243052D200503E39 /* LaunchScreen.storyboard in Resources */,
+				D40622B32430548D00503E39 /* BookingTimeSlots.xib in Resources */,
+				D40622A0243052D200503E39 /* Assets.xcassets in Resources */,
+				D40622B82430589000503E39 /* TimeCollectionCell.xib in Resources */,
+				D406229E243052CC00503E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D406228F243052CC00503E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40622B72430589000503E39 /* TimeCollectionCell.swift in Sources */,
+				D40622AD2430537500503E39 /* DBManager.swift in Sources */,
+				D40622B22430548D00503E39 /* BookingTimeSlots.swift in Sources */,
+				D406229B243052CC00503E39 /* ViewController.swift in Sources */,
+				D4062297243052CC00503E39 /* AppDelegate.swift in Sources */,
+				D4062299243052CC00503E39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D406229C243052CC00503E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D406229D243052CC00503E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D40622A1243052D200503E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40622A2243052D200503E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40622A5243052D200503E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D40622A6243052D200503E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40622A8243052D200503E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Time Slots/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.Time-Slots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D40622A9243052D200503E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Time Slots/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.Time-Slots";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D406228E243052CC00503E39 /* Build configuration list for PBXProject "Time Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40622A5243052D200503E39 /* Debug */,
+				D40622A6243052D200503E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40622A7243052D200503E39 /* Build configuration list for PBXNativeTarget "Time Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40622A8243052D200503E39 /* Debug */,
+				D40622A9243052D200503E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D406228B243052CC00503E39 /* Project object */;
+}
